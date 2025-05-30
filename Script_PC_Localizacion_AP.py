@@ -78,14 +78,14 @@ from collections import deque
 SERIAL_PORT = 'COM7' 
 BAUD_RATE = 115200    # Tasa de baudios para la comunicación serial
 
-# Coordenadas de los nodos fijos (en metros) - ¡¡¡DEBES MEDIR Y PONER LAS TUYAS!!!
+# Coordenadas de los nodos fijos (en metros) 
 NODOS_FIJOS_COORDS = {
     0: np.array([0.0, 15.0]), 1: np.array([23.0, 15.0]),
     2: np.array([23.0, 0.0]), 3: np.array([0.0, 0.0])
 }
 ETIQUETAS_NODOS_FIJOS = [f"NF{i} ({NODOS_FIJOS_COORDS[i][0]:.1f},{NODOS_FIJOS_COORDS[i][1]:.1f})" for i in NODOS_FIJOS_COORDS]
 
-# --- VALORES DE CALIBRACIÓN (¡ASEGÚRATE DE QUE ESTOS SEAN TUS ÚLTIMOS VALORES CALIBRADOS!) ---
+# --- VALORES DE CALIBRACIÓN  ---
 P_TX_DBM = 15.0       # Potencia de transmisión supuesta del AP (dBm)
 FREQ_MHZ = 2437.0     # Frecuencia del canal WiFi (Canal 6 = 2437 MHz)
 # K calculado con P_TX=15.0dBm, F=2437MHz, y tu RSSI_exp(1m)=-59.1dBm

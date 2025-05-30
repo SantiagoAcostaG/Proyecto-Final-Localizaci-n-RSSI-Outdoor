@@ -7,7 +7,7 @@
 # 3. Sirve los últimos datos leídos del MPU6050 a través de un simple servidor HTTP en formato JSON.
 #
 # Autores: Daniel Suarez - Sergio Botia - Daniel Bueno - Santiago Acosta
-# Fecha: 30 de Mayo de 2025
+# Fecha: 29 de Mayo de 2025
 #
 # Hardware Requerido:
 # - Raspberry Pi Pico W

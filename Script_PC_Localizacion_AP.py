@@ -72,10 +72,10 @@ import threading
 import json
 import csv
 from datetime import datetime
-from collections import deque # Importado, aunque no se usa para el filtro EMA de posición simple, sí para el historial IMU y podría usarse para otros filtros.
+from collections import deque 
 
 # --- Parámetros de Configuración y Calibración ---
-SERIAL_PORT = 'COM7'  # ¡¡¡VERIFICA Y CAMBIA ESTO A TU PUERTO SERIE CORRECTO!!!
+SERIAL_PORT = 'COM7' 
 BAUD_RATE = 115200    # Tasa de baudios para la comunicación serial
 
 # Coordenadas de los nodos fijos (en metros) - ¡¡¡DEBES MEDIR Y PONER LAS TUYAS!!!
